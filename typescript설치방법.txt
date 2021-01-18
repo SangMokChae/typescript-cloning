@@ -1,0 +1,8 @@
+typescript 사용 설치 설명서
+1.node.js를 다운받는다.
+2.npm install -g typescript 타입스크립트 설치
+3.npm install -g ts-node typescript를 바로 실행할 수 있도록 도와주는것
+4.관리자 권한으로 powershall을 연다.
+5.Set-ExecutionPolicy RemoteSigned 를 입력한후에 y를 누른다.
+6.다시 돌아와서 tsc (typescript file name).ts
+7.실시간 바뀌는걸 적용하기 위해서는 tsc -w (typescript file name).ts 를 입력한다. /감시모드인 typescript를 실행한다.
